@@ -1,0 +1,26 @@
+.connectedUser{
+    width: 26%;
+    padding-top: 1%;
+    margin-top: 2%;
+    box-shadow: 10px 10px 5px #a1a1a1;
+    background-color: #067af887;
+    height: 60vh;
+}
+.connectedUser > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.dot{
+    width:10px;
+    height:10px;
+    border-radius:50px;
+}
+.online{
+    background-color:#16e933;
+}
+.offline{
+    background-color:#9ea59f;
+}

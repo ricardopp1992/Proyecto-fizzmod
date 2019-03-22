@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+.chat{
+    display:flex;
+}
+.chatSection{
+    width:70%;
+    height:100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+.messages{
+    background-color: #067af887;
+    width: 90%;
+    height: 95%;
+    max-height: 90%;
+    border: 1x solid;
+    padding-top: 3%;
+    margin: 4%;
+    box-shadow: 10px 10px 5px #a1a1a1;
+}
+.messages > p {
+    margin: 0 0 1% 2%;
+}
+.user{
+    font-weight:bold;
+}
+.dateMessage{
+    float: right;
+    margin-right: 5%;
+    font-family: monospace;
+    font-size: .9em;
+}
+.dateHidden{
+    display:none;
+}
+.messageForm{
+    width:100%;
+    height:5%;
+    display:flex;
+    margin: 0 0 1% 1%;
+}
+.inputText{
+    width:80%;
+}
+.inputButtom{
+    width:20%;
+}
