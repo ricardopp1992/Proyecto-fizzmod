@@ -106,15 +106,14 @@ export default class Home extends Component{
                 window.sessionStorage.setItem('username', data.user)
                 window.location.replace('http://localhost:8000/chat-fizzmod')
 
-            } else{
-                alert('usuario o clave inválida')
             }
         })
         .catch( err => {
             if(err){
                 console.error('Some error: ', err.message)
             }
-
+            
+            alert('usuario o clave inválida')
             console.log('fail authenticate')
         })
     }
